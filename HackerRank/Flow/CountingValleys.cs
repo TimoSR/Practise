@@ -2,32 +2,31 @@ namespace HackerRank.Flow;
 
 public class CountingValleys
 {
-    public static string Path = "UDDDUDUU";
-    private static int SeaLevel = 0;
+    public static readonly string Path = "UDDDUDUU";
     
     public static int countingValleys(int steps, string path)
     {
-        int Level = 0;
-        int Valleys = 0;
+        var level = 0;
+        var valleys = 0;
  
         for (int i = 0; i < steps; i++)
         {
-            if (Level.Equals(-1) && path[i] == 'U')
+            if (level.Equals(-1) && path[i] == 'U')
             {
-                Valleys++;
+                valleys++;
             }
 
             if (path[i].Equals('U'))
             {
-                Level++;
+                level++;
             }
             else if (path[i].Equals('D'))
             {
-                Level--;
+                level--;
             }
         }
         
-        return Valleys;
+        return valleys;
     }
 
 }
