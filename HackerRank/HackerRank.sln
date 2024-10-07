@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank.csproj", "{856A5F7B-0EF6-4BC1-86B8-ED740A9053EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{856A5F7B-0EF6-4BC1-86B8-ED740A9053EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856A5F7B-0EF6-4BC1-86B8-ED740A9053EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856A5F7B-0EF6-4BC1-86B8-ED740A9053EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856A5F7B-0EF6-4BC1-86B8-ED740A9053EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5D45B06-9270-4BEC-B7B5-C49498D0C66E}
+	EndGlobalSection
+EndGlobal
