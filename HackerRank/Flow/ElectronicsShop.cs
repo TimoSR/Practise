@@ -20,6 +20,5 @@ public class ElectronicsShop
         }
 
         return closestToBudget > 0 ? closestToBudget : -1;
-
     }
 }
